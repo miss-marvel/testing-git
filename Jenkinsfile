@@ -26,16 +26,5 @@ pipeline {
             }
         }
 
-        stage('Deploy - Test') {
-            steps {
-                echo 'Deploying to test environment'
-            }
-        }
-
-        stage('Deploy - Prod') {
-            steps {
-                echo 'Deploying to prod environment'
-            }
-        }
     }
 }
